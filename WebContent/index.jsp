@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-µµÀÚ±â
+getRemoteAddr() : <%=request.getRemoteAddr()%>
+getLocalAddr() : <%=request.getLocalAddr()%>
+getContextPath() : <%=request.getContextPath() %>
+getLocalName() : <%=request.getLocalName() %>
+getRequestedSessionId() : <%=request.getRequestedSessionId() %>
+getRemoteHost() : <%=request.getRemoteHost() %>
+getContextPath() : <%=application.getContextPath() %>
 </body>
 </html>
